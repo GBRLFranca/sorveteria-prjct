@@ -1,0 +1,89 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../public/imagens/banner-sobre.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container_titulo {
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    h1{
+        font-size: 100px;
+        text-shadow: 3px 5px 4px #474747; 
+    }
+}
+
+.container_sobre {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao_sobre {
+    max-width: 1024px;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #000000;
+
+    h2 {
+        font-size: 32px;
+    }
+
+    span{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
+
+.container_imagens{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img {
+    
+    width: 50%;
+    height: auto;
+}
+
+@media (max-width:720px) {
+    .container_titulo h1 {
+        font-size: 70px;
+    }
+
+    .container_imagens {
+        flex-direction: column;
+    }
+
+    .img {
+        width: 100%;
+    }
+}
+
+@media (max-width:430px) {
+    .container_titulo h1 {
+        font-size: 50px;
+    }
+}

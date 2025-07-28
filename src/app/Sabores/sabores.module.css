@@ -1,0 +1,84 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../public/imagens/banner-sabores.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.container_titulo {
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+    h1{
+        font-size: 100px;
+        text-shadow: 3px 5px 4px #474747; 
+    }
+}
+
+.secao_sabores {
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #ffffff;
+
+    h2{
+        text-align: center;
+        color: #000000;
+        font-size: 32px;
+    }
+}
+
+.container_sabores {
+    max-width: 1024px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 2px 2px 5px 2px #d9dde1;
+    border-radius: 3px;
+    color: #000000;
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
+
+.imagem {
+    width: 200px;
+    height: auto;
+}
+
+@media (max-width: 468px) {
+    .container_titulo h1 {
+        font-size: 60px;
+    }
+}

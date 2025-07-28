@@ -1,0 +1,43 @@
+.cabecalho {
+    width: 100%;
+    background-color: #F9DB79;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.container nav {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.links {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (max-width:430px) {
+    .container {
+        flex-direction: column;
+    }
+}
